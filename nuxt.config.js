@@ -61,7 +61,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-    plugins: ['@/plugins/bootstrap-vue','@/plugins/parser','@/plugins/axios'],
+    plugins: ['@/plugins/parser','@/plugins/axios'],
     /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
