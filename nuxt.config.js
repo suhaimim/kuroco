@@ -42,7 +42,7 @@ export default {
                 hid: 'og:description',
                 'data-kuroco-replace': 'og_description',
                 property: 'og:description',
-                content: 'Kuroco sample page'
+                content: 'Suhaimi & Kuroco demo'
             },
             { hid: 'robots', name: 'robots', content: envSettings.ROBOTS }
         ],

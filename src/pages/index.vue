@@ -197,7 +197,7 @@ export default {
             this.updateFavourite();
         }
         const sitekey = localStorage.getItem('sitekey');
-        if (sitekey != '') {
+        if (sitekey !== '') {
             this.sitekey = sitekey;
         } else {
             this.sitekey = 'dev-nuxt-auth';
