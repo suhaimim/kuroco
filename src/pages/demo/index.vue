@@ -1,6 +1,9 @@
 <template>
-    <div class="container bg-light-grey">
-        <h1>Suhaimi Demo Page</h1>
+    <div>
+      <b-jumbotron bg-variant="info" header="BootstrapVue" lead="Bootstrap v4 Components for Vue.js 2">
+        <p>For more information visit website</p>
+        <span class="c-btn c-btn_dark c-btn_sm"  href="#">More Info</span>
+      </b-jumbotron>
     </div>
 </template>
 
