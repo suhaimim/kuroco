@@ -56,12 +56,17 @@ export default {
     /*
    ** Global CSS
    */
-    css: [],
+    css: ['~/assets/dist/css/bootstrap.min.css'],
+    script: [
+        { src: '~/assets/dist/js/jquery-3.5.1.slim.min.js' },
+        { src: '~/assets/dist/js/popper.min.js' },
+        { src: '~/assets/dist/js/bootstrap.min.js' }
+    ],
     /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-    plugins: ['~/plugins/bootstrap.js', '@/plugins/parser', '@/plugins/axios'],
+    plugins: ['@/plugins/parser', '@/plugins/axios'],
     /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -75,11 +80,10 @@ export default {
    ** Nuxt.js modules
    */
     modules: [
-        'bootstrap-vue/nuxt',
         '@nuxtjs/axios',
         '@nuxtjs/auth',
         ['@nuxtjs/pwa', { workbox: false, autoRegister: false, manifest: { publicPath: '/_nuxt/', crossorigin: 'use-credentials' } }],
-        'nuxt-i18n',
+        'nuxt-i18n'
         // ['@nuxtjs/google-gtag', {
         //     id: 'G-XXXXXXXX',
         //     config: {
@@ -93,20 +97,6 @@ export default {
         //     }]
         // }],
     ],
-    // specify module rules for css and scss
-    module: {
-        rules: [
-        {
-            test: /\.s[ac]ss$/i,
-            use: ['style-loader', 'css-loader', 'sass-loader'],
-        },
-        ],
-    },
-    // use these settings to use custom css
-    bootstrapVue: {
-        bootstrapCSS: false,
-        icons: true,
-    },
     /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
