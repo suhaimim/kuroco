@@ -9,9 +9,9 @@
             <p>For more information visit website</p>
             <span class="c-btn c-btn_dark c-btn_sm" href="#">More Info</span>
         </div>
-        <br />
-        <hr />
-        <br />
+        <br>
+        <hr>
+        <br>
         <h3>SASS > Object > Component</h3>
         <ul>
             <li>_articles.scss</li>
