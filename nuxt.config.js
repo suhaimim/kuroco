@@ -50,7 +50,7 @@ export default {
             { rel: 'icon', type: 'image/svg+xml', href: '/icon_kuroco.svg' },
             { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
             { rel: 'preconnect', href: 'https://cdn.jsdelivr.net' },
-            { rel: 'preconnect', href: 'https://dev-nuxt-auth.a.kuroco.app' }
+            { rel: 'preconnect', href: 'https://dev-nuxt-auth.a.kuroco.app' },
             { rel: 'stylesheet', href: 'https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css' }
         ]
     },
