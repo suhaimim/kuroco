@@ -52,17 +52,21 @@ export default {
             { rel: 'preconnect', href: 'https://cdn.jsdelivr.net' },
             { rel: 'preconnect', href: 'https://dev-nuxt-auth.a.kuroco.app' },
             // { rel: 'stylesheet', href: 'https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css' }
+        ],
+        script: [
+            { src: '/bootstrap.bundle.min.js' }
         ]
     },
     /*
    ** Global CSS
+    //css: ['~/assets/dist/css/bootstrap.min.css'],
+    //script: [
+        //{ src: '~/assets/dist/js/jquery-3.5.1.slim.min.js' },
+        //{ src: '~/assets/dist/js/popper.min.js' },
+        //{ src: '~/assets/dist/js/bootstrap.min.js' }
+    //],
    */
-    css: ['~/assets/dist/css/bootstrap.min.css'],
-    script: [
-        { src: '~/assets/dist/js/jquery-3.5.1.slim.min.js' },
-        { src: '~/assets/dist/js/popper.min.js' },
-        { src: '~/assets/dist/js/bootstrap.min.js' }
-    ],
+
     /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins

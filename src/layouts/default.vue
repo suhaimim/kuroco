@@ -161,6 +161,11 @@ export default {
                     icon: 'mdi-send',
                     title: 'Feedback',
                     to: '/inquiry'
+                },
+                {
+                    icon: 'mdi-send',
+                    title: 'Demo',
+                    to: '/demo'
                 }
             ],
             miniVariant: false,
